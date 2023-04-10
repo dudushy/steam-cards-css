@@ -19,7 +19,7 @@ card.addEventListener('mousemove', (e) => {
     console.log('x:', x, 'y:', y, 'rotationX:', rotationX, 'rotationY:', rotationY);
 
     card.style.transition = `none`;
-    card.style.transform = `rotateY(${rotationY}deg) rotateX(${rotationX}deg)`;
+    card.style.transform = `rotateY(${rotationY}deg) rotateX(${rotationX}deg) scale(1.2)`;
 });
 
 card.addEventListener('mouseleave', () => {
