@@ -1,5 +1,5 @@
-const maxX = 15;
-const maxY = 15;
+const maxX = 25;
+const maxY = 25;
 
 const card = document.getElementById('card');
 
